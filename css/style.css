@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* オープニング全画面 */
+#intro {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+}
+
+.intro-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+.intro-video img {
+  max-width: 100%;
+}
+
+.slideshow {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .slideshow {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
