@@ -47,3 +47,8 @@
 .slide.active {
   opacity: 1;
 }
+
+.footer {
+  display:fixed;
+  text-align:center;
+}
