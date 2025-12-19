@@ -16,6 +16,11 @@ body {
   font-size: 10px;
   color: #909090;
 }
+@media (max-width:768px){
+  body {
+    overflow:visible;
+  }
+}
 
 .lv1 {
   font-size: 30px;
