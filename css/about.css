@@ -43,7 +43,7 @@
 /*--------opening end--------*/
 
 .container {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   margin-top: 5%;
@@ -145,4 +145,8 @@ dd {
   .list {
     font-size: 0.9em;
   }
+}
+
+.footer p{
+  text-align:center;
 }
