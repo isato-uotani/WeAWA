@@ -60,6 +60,11 @@ body {
 
 /* ＝＝＝＝＝＝＝＝ SP表示（768以下）＝＝＝＝＝＝＝＝ */
 @media (max-width: 768px) {
+  .lv1 {
+    font-size: 20px;
+  margin: 10px 0 0 50px;
+  }
+    
   .pc-nav {
     display: none;
   }
