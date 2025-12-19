@@ -1,4 +1,9 @@
 @charset "utf-8";
+@media (max-width:768px){
+  body {
+    overflow:scroll;
+  }
+}
 /*--------opening--------*/
 #opening {
   width: 100%;
