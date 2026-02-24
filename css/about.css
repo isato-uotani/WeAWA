@@ -152,13 +152,6 @@ dd {
     font-size: 0.9em;
   }
 }
-.footer {
-  position:fixed;
-  bottom: 0;
-  left: 50%;
-  transform:translateX(-50%);
-  text-align: center;
-}
 .footer p{
   text-align:center;
 }
